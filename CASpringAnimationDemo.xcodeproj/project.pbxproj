@@ -192,6 +192,11 @@
 				TargetAttributes = {
 					358720061BD27DC100A5D06D = {
 						CreatedOnToolsVersion = 7.0.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					3587201A1BD27DC200A5D06D = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -481,6 +486,7 @@
 				358720311BD27DC200A5D06D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		358720321BD27DC200A5D06D /* Build configuration list for PBXNativeTarget "CASpringAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +495,7 @@
 				358720341BD27DC200A5D06D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		358720351BD27DC200A5D06D /* Build configuration list for PBXNativeTarget "CASpringAnimationDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +504,7 @@
 				358720371BD27DC200A5D06D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
